@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="assignment9.NgayThangNam">
+   <children>
+      <TextField fx:id="ngay" layoutX="53.0" layoutY="42.0" prefHeight="27.0" prefWidth="74.0" promptText="Ngay" />
+      <TextField fx:id="thang" layoutX="191.0" layoutY="42.0" prefHeight="27.0" prefWidth="90.0" promptText="Thang" />
+      <TextField fx:id="nam" layoutX="349.0" layoutY="42.0" promptText="Nam" />
+      <TextArea fx:id="ketqua" layoutX="74.0" layoutY="163.0" prefHeight="200.0" prefWidth="452.0" promptText="Ket qua" />
+      <Button layoutX="252.0" layoutY="105.0" mnemonicParsing="false" onAction="#submit" text="Submit" />
+   </children>
+</Pane>

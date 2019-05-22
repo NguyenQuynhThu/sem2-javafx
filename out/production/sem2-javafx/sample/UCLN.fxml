@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:controller="sample.UCLN" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="txtSTN" layoutX="34.0" layoutY="32.0" promptText="So thu nhat" />
+      <TextField fx:id="txtSTH" layoutX="400.0" layoutY="32.0" promptText="So thu hai" />
+      <TextArea fx:id="txtKQ" layoutX="54.0" layoutY="200.0" prefHeight="167.0" prefWidth="492.0" promptText="Ket qua" />
+      <Button onAction="#submit" layoutX="271.0" layoutY="124.0" mnemonicParsing="false" text="Submit" />
+   </children>
+</Pane>

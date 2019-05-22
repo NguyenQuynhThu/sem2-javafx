@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane fx:controller="session1.Student" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="txtName" layoutX="174.0" layoutY="57.0" prefHeight="27.0" prefWidth="253.0" promptText="Ten sinh vien" />
+      <Button onAction="#themSV" layoutX="245.0" layoutY="122.0" mnemonicParsing="false" text="Them sinh vien" />
+      <Hyperlink onAction="#toListPane" layoutX="490.0" layoutY="344.0" text="Di toi dssv &gt;&gt;" />
+   </children>
+</Pane>

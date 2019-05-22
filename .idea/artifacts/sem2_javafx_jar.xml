@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="sem2-javafx:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/sem2_javafx_jar</output-path>
+    <root id="archive" name="sem2-javafx.jar">
+      <element id="module-output" name="sem2-javafx" />
+    </root>
+  </artifact>
+</component>
